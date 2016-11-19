@@ -1,0 +1,12 @@
+<apex:page sidebar="false" showHeader="false" standardStyleSheets="false" controller="CasesSidebarController">
+  <apex:sectionHeader title="Status of Cases"/>
+      <apex:dataTable value="{!closedLabels}" var="state">
+        <apex:column >
+          <apex:outputText style="font-weight:bold" value="{!state}" />
+        </apex:column>  
+        <apex:column >
+         
+        </apex:column> 
+      </apex:dataTable>
+   
+</apex:page>

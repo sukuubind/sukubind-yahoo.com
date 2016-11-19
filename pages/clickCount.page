@@ -1,0 +1,17 @@
+<apex:page controller="CustomController1">
+ <apex:form >
+ <apex:pageBlock title=" Click count" >
+ <apex:outputText value="{!clickCount}">
+ 
+ 
+ </apex:outputText>
+ 
+ 
+ 
+ </apex:pageBlock>
+ 
+ <apex:commandButton value="Click to increase count" action="{!buttonClicked}"/>
+ <apex:commandButton value="Click to decrease count" action="{!buttonClickedToReduce}"/>
+ 
+ </apex:form> 
+</apex:page>

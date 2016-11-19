@@ -1,0 +1,3 @@
+<apex:page controller="CatalogController" tabStyle="Contact">
+  
+</apex:page>
